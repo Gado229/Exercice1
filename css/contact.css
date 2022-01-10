@@ -4,12 +4,13 @@
   padding: 10px;
   text-decoration: none;
   display: inline-flex;
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 10px 10px;
   border-radius: 0;
   position: relative;
   top: 30px;
   right: -330px;
+  color: white;
 
 }
 #button:hover {
@@ -19,16 +20,16 @@
   text-align: center;
   display: block;
   padding: 10px 10px 10px 10px;
-  color: #ffffff;
+
   position: relative;
 }
-.style {
+table {
   height: 7rem;
 }
-.style tr {
+tr {
 
 }
-.style th{
+th{
   padding: 10px 10px 10px 10px;
   width: 150px;
   color: #4D4D4D;
@@ -36,10 +37,8 @@
   text-align: right;
 }
 
-.style td{
+td{
   padding: 10px 10px 10px 10px;
   width: 480px;
-  background-color: white;
-  border-bottom: solid 2px;
-  border-style:ridge;
+  border-style: ridge;
 }
